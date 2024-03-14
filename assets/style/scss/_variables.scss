@@ -1,0 +1,56 @@
+:root {
+  --color-light: #fff;
+  --color-gray-0: #f2f9ff;
+  --color-gray-100: #d1d8df;
+  --color-gray-200: #a2a7ab;
+  --color-gray-300: #535362;
+  --color-gray-400: #444450;
+  --color-gray-500: #32323b;
+  --color-gray-600: #25252c;
+  --color-green-0: #2dc942;
+  --color-green-100: #309a3e;
+  --color-blue-0: #00b7ff;
+  --color-blue-100: #206feb;
+  --color-blue-200: #0d419d;
+  --color-red-0: #f85149;
+  --color-red-100: #ff0000;
+  --color-red-200: #b62324;
+  --color-purple-0: #bf4b8a;
+  --color-purple-100: #d83890;
+  --color-cyan: #4091b7;
+
+  --color-background: var(--color-light);
+
+  --color-primary-1: var(--color-gray-0);
+  --color-primary-2: var(--color-gray-100);
+  --color-primary-3: var(--color-gray-200);
+
+  --color-bombs-1: var(--color-blue-100);
+  --color-bombs-2: var(--color-green-100);
+  --color-bombs-3: var(--color-red-0);
+  --color-bombs-4: var(--color-blue-200);
+  --color-bombs-5: var(--color-red-200);
+  --color-bombs-6: var(--color-cyan);
+  --color-bombs-7: var(--color-purple-0);
+  --color-bombs-8: var(--color-gray-300);
+
+  --color-flags-left: var(--color-gray-300);
+  --color-msg: var(--color-gray-300);
+}
+
+:root[theme="dark"] {
+  --color-background: var(--color-gray-600);
+
+  --color-primary-1: var(--color-gray-300);
+  --color-primary-2: var(--color-gray-400);
+  --color-primary-3: var(--color-gray-500);
+
+  --color-bombs-2: var(--color-green-0);
+  --color-bombs-4: var(--color-blue-0);
+  --color-bombs-5: var(--color-red-100);
+  --color-bombs-7: var(--color-purple-100);
+  --color-bombs-8: var(--color-gray-200);
+
+  --color-flags-left: var(--color-gray-200);
+  --color-msg: var(--color-gray-200);
+}
